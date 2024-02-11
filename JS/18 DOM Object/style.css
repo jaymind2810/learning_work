@@ -1,0 +1,44 @@
+#outer{
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+#search{
+    border: 1px solid black;
+}
+
+#counter1{
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#click_number{
+    margin-left: 50px;
+    /* padding-left: 50px; */
+    font-size: 20px;
+    text-decoration: solid;
+}
+
+
+#outer3{
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+#inner3{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}

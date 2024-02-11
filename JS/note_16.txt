@@ -1,0 +1,71 @@
+==============16 Functions==========================
+
+==> VARIABLE HOISTING:
+    --In this Case Function defined first and variable defined latter this time
+    variable hosting happenning.
+        Ex. This is not give error...
+            console.log(i);
+            var i = 10
+                --udefined
+
+        Ex. This is give Error..
+            console.log(j)
+                --error
+        
+==> SCOPE:
+    Function Scope(lexical)(local) : it is axisable in only function
+    Global Scope  :=  It is axisable in all over function.
+            
+==> Function Expression:
+    ==>(Named Function)
+    var factorial = function fect(n){
+        var i = 10;
+        return i
+    }
+
+    console.log(factorial(5))
+
+    ==>Anoyrmance Function:
+    var factorial2 = function(n){
+        console.log(n)
+    }
+    factorial2(5)
+
+Function Declaration VS Function Expression:=
+    --Main defference between two was function declaration worked on
+        hoisting variable but function expression does not worked on hoisting.
+
+
+We are also passing function as parameter in other function
+
+
+=====================Array=================
+
+==Array
+    creat Array Two way:
+        var arr = [1,3,4,5,6]
+        or
+        var arr = new Array(1,3,4,5,6)
+
+        arr[7] = 100
+        console.log(arr)
+            --[1,3,4,5,6,empty * 2, 100]
+
+        console.log(arr[5])
+            --udefined
+
+        
+    ==>SPLICE Function:
+        arr.splice(start_index, deletion_count, element_to_inserted)
+
+        var arr = [1,3,4,5,6]
+        arr.splice(1,1)
+            --[3]
+        arr
+            --[1,4,5,6]
+
+        arr.splice(2,2,40,50)
+        arr 
+            --[1,2,40,50,30,3,4,5]
+
+        

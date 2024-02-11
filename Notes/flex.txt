@@ -1,0 +1,56 @@
+============================8. Flex=====================================
+
+display: flex;
+    =>  define in parent div
+    =>  property use to define flex to the container.
+
+felx-direction: row-reverse;
+    =>  definne in parent div
+    =>  property use to define direction of block way.
+            row,
+            row-reverse,
+            column,
+            column-reverse
+oder: 1;
+    =>  define in Child div
+    =>  property use to define for oder of block.
+
+flex-wrap: wrap
+    =>  Define in parent.
+    =>  property use to define when we want to define Child div are flex with container that time use.
+        It is used when multiple child widht total is greter than container width so that time use to
+        define all child div are not go outer side of container div and also they keep their width.
+            wrap-reverse
+
+flex-grow: 2;
+    =>  Define in Child div
+    =>  property use to devide container all width betweeen child divs
+            flex-shrink: 4;
+                It is use for shrinknoze div hight.
+
+justify-content: flex-start;
+    =>  Define in parent container
+    =>  It is used to define content in container
+            flex-end
+            center
+            space-around
+            space-betweeen
+
+align-items: center;
+    =>  Define in parent
+    =>  It is used to cross aceess of row or column.
+            flex-start
+            flex-end
+            center
+            stretch(When we use height == auto taht time work)
+            baseline(It is used to remove margin)
+
+overflow-wrap: break-word;
+    =>  Define in parent, child
+    =>  It is used to Define content not go outside of coontainer.
+            break-word
+            normal
+            word-wrap
+
+
+ 

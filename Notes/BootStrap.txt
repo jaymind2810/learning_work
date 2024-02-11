@@ -1,0 +1,65 @@
+Bootstrap
+Materialize css
+Sementic Css 
+
+This all are frontend frameworks..
+
+CDN =  content delevery network.
+
+==> breakpoint in bootstrap class for responsive design:
+    xs  =   < 576 px
+    sm  =   < 768 px
+    md  =   < 992 px
+    lg  =   992 onword
+    xl  =   1200 px onwords
+
+===> Important Note:= If we want to change in bootstrap Css then we create our
+    Style.css file and override class/id then changes made but this changes applied
+    Make sure ONLY WHEN IF STYLE.CSS load after Bootstrap css load.
+    So, oder Also Important in CSS Rule....
+
+==> Grid System:
+    12 columns   
+
+==> Sass = Syntaticaly ausom Style Sheet 
+
+Bootstrap main Classes:
+    container
+    container-fluid
+    row
+    col
+    col-12
+
+Margin Classes:
+    m-0, mt-0, mb, ml, mr, mx, my
+
+Padding Classes:
+    p-0, pl, pr, pt, pb, px, py
+
+Block Classes:
+    d-none, d-block, etc...
+
+Border Classes:
+    border, border-top, border-bottom, etc..
+    Not Border:
+        border-0, border-top-0, etc...
+
+    Border Color:
+        border-primary, border-danger, border-warning, border-sucess, etc..
+
+    Border-Size:
+        rounded-lg, .rounded-sm
+
+Color Classes:
+    text-primary, text-danger, etc...
+
+    Background Color:
+        bg-primary, etc..
+    
+    
+
+
+
+
+    
+

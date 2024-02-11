@@ -1,0 +1,48 @@
+======================================================HTML IMPO inRTANT TAGs1 ================================================
+tags						Important Usag
+
+&nbsp					Space between word in <p> tags
+<ul type="square"></ul>		Unordered List
+<ol type="A" start="10"></ol>		Odered List
+<li></li>				List Element to show
+<img src"static/image.png" alt="Five Tips" height="200" width="100%">		Image Tag
+alt 					To show text instead image can not load properly
+<a href="https://www.google.com" target="_blank"> Google </a>
+		a = tag for anchor tag
+		href =  hyper link tag
+		
+	For go back in Anchor tag
+	<a href="../main.html" target="_blank"> Google </a>
+	
+=================More on HTML Tags================================
+
+inline tags = <a></a>,<img>,<span>,<i>,<b>,<strong>
+	Not Breaks line
+	
+<sup> = for superscript 
+<sub>	= for subscript
+<q>	= quated text
+
+Some Special character:=
+	&nbsp =  1 Space
+	&ensp =  2 Space
+	&emsp =  4 Space
+	<p>  =  For paragraph
+	&lt; =		<
+	&gt;	=	>
+	&apos;s =	's
+	&amp	=	&
+	
+Table Tags:=
+	<table border="1">	=	for Border
+	<caption></caption>	=	Table Hadding
+	<th>			=	For row column heading
+	<td rowspan="2">	=	for merge two row
+	<td colspan="2">	=	for merge two column
+	
+	
+	
+	
+	
+	
+	

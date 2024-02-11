@@ -1,0 +1,36 @@
+==================================== 11. Animation & 3D Space ==============
+
+=> transform: rotate(100deg);
+    It is used to transform object.
+        
+=> transform: scale(1.5, 0.4);
+    Horizontal and vartical
+
+=> transform: translate(100%,100px);
+    Translate div
+
+=> transition: 1s ease-in-out;
+    --It is use to
+        --other transitions are 
+            ease-in-out
+            linear
+            ease-in
+            ease-out
+            steps(5, end)
+
+=> animation: changeShape 1s ease-in-out 4 alternate;
+    --It is used to give animation to div
+    --Here changeShape is animation name it is define in other
+
+    -- changeShape Is Define this Way using @keyfrmes 
+
+    ==>keyfrmes define This Way
+    @keyframes changeShape {
+        from{
+            border-radius: 0%;
+        }
+        to{
+            border-radius: 50%;
+        }
+    }
+        

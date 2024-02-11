@@ -1,0 +1,32 @@
+.style-first-letter::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform:capitalize ;
+}
+
+p::before{
+    content: 'Before';
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p::after{
+    content: 'After';
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    content: '';
+    background-image: url(logo.png);
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+}

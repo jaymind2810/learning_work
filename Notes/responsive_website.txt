@@ -1,0 +1,57 @@
+=======================10. Responsive Websites =========================================
+
+=> Meta Tag = viewport used to show your currently website look like in other 
+   devices in browser [visible Area on the Screen].
+=> This Meta Tag define in head section.
+        <meta name="viewport" content="Width=device-width, initial-scale=1">
+            Here, initial-scale=1 define initial zoom factor of website in other selected device.
+
+
+===> Media Query:=
+    Media Type:
+        1. Screen
+        2. Print
+        3. Speech
+        4. All
+    
+    Media Properties:
+        width
+        height
+        resolution
+
+=> define Media Query:
+In media Query, Flow is important.
+    #div1{
+            width: 60%; 
+        }
+    @media screen and (max-width: 900px){
+        #div1{
+            width: 80%; 
+        }
+    }
+    @media screen and (max-width: 600px){
+        #div1{
+            width: 100%; 
+        }
+    }
+
+Two main Approches:==
+    1. Desktop-first:=
+        Desktop -> Ipad -> Mobile
+            Above Example 
+
+    2. Mobile-first:=
+        Mobile -> Ipad -> Desktop
+            #div1{
+                    width: 100%; 
+                }
+            @media screen and (min-width: 600px){
+                #div1{
+                    width: 80%; 
+                }
+            }
+            @media screen and (max-width: 900px){
+                #div1{
+                    width: 60%; 
+                }
+            }

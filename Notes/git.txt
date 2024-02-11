@@ -1,0 +1,52 @@
+======================14. GIT ================================
+
+git init
+    initialize folder with git
+
+ls
+    list of file in current folder.
+
+git status
+
+git add .
+
+git commit -m "[branchname][add/Mod/fix] message for commit"
+
+git diff
+    -- It is show of changes in file.
+
+git log
+    -- It is used to show all commits.
+
+git checkout (commit_id)
+    -- It is used to checkout in that commit_id.
+
+git branch
+    -- It is show all branches
+
+git checkout -b branch_name
+    -- It is used create new branch and checkout new branch.
+
+git merge branch_name
+    -- It is used to merge branch
+
+git branch -d branch_name
+    -- It is used to delete branch.
+
+git config --list
+    -- It is used to show all git configuration for this computer.
+
+git config credential.helper
+    -- It is used to show git user.name and user.email credential stored in key.
+
+git config user.name 'jaymin2810'
+    -- Used to setting up user name.
+
+git config user.email 'jaymind2810@gmail.com'
+    -- Used to setup email address for this git account.
+
+
+
+
+ 
+

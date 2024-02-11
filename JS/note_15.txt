@@ -1,0 +1,55 @@
+=====================================15.0 Starring JavaScript=================================
+
+==> VARIABLE:=
+    Varible define in same as python.
+    
+        var a = 10;
+        a = "Hello World"
+
+    - Types of Variable:
+        Number
+        String
+        boolean
+        null
+        undefined
+        symbol
+        object
+
+    -Declaration Variable:=  Create Variable but not assign any value
+    -Defination Variable:= Create Variable and assign value
+
+    var a
+    console.log(a)          => undefined
+        = Undefined := Variable created but yet not value assigned
+    
+    var a 
+    a = null
+    console.log(a)          => Null
+        = Null := Variable created and assign null value.
+
+==> Inbuilt Functions:
+
+    parseInt("100")
+        It is used to convert string into Number.
+
+    Math.sqrt(2)
+
+    Math.pow(10, 2)
+
+    parseFloat("23.03")
+        string to Float 
+    
+    a = "Number"
+    typeof a
+        check type of Variable
+
+==> Difference between == and ===
+
+    1 == '1'
+        true
+
+    1 === '1'
+        false
+
+    
+
